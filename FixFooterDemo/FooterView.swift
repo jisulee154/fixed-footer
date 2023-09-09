@@ -24,6 +24,8 @@ class FooterView: UIView {
     
     func setUpView() {
         containerView = UIView()
+        containerView.backgroundColor = .systemGray4
+        
         label = UILabel()
         label.text = "It's a fixed footer"
         
@@ -41,8 +43,5 @@ class FooterView: UIView {
             $0.width.equalTo(200)
             $0.height.equalTo(80)
         }
-        
-        
-    
     }
 }
