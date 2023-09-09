@@ -28,6 +28,7 @@ class FooterView: UIView {
         
         label = UILabel()
         label.text = "It's a fixed footer"
+        label.textAlignment = .center
         
         self.addSubview(containerView)
         self.addSubview(label)
